@@ -1,6 +1,6 @@
 const todosData = [
-    { id: 1, task: "Faire les courses", completed: false },
+    { id: 1, task: "Add new test", completed: false },
   ];
   
-  export default todosData;
+export default todosData;
   

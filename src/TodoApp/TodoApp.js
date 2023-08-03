@@ -26,7 +26,7 @@ function TodoApp() {
 
   return (
     <div>
-      <h1>Todo App</h1>
+      <h1>First Todo App with react</h1>
       <TodoForm addNewTodo={addNewTodo} />
       <TodoList todos={todos} updateTodo={updateTodo} deleteTodo={deleteTodo} />
     </div>
