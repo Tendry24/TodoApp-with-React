@@ -1,4 +1,4 @@
-//src/TodoApp/TodoForm.js
+//component for the form used to add new tasks.
 import React, { useState } from "react";
 
 function TodoForm({ addNewTodo }) {

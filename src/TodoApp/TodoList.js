@@ -3,7 +3,7 @@ import React from "react";
 
 function TodoList({ todos, updateTodo, deleteTodo }) {
   return (
-    <ul>
+    <div>
       {todos.map((todo) => (
         <p key={todo.id}>
           <input
@@ -14,7 +14,7 @@ function TodoList({ todos, updateTodo, deleteTodo }) {
           <button onClick={() => deleteTodo(todo.id)}>Remove</button>
         </p>
       ))}
-    </ul>
+    </div>
   );
 }
 
