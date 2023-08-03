@@ -1,4 +1,4 @@
-//src/TodoApp/TodoList.js
+//Just a component to display the to-do list and enable updating and deletion.
 import React from "react";
 
 function TodoList({ todos, updateTodo, deleteTodo }) {
