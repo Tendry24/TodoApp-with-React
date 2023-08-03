@@ -1,2 +1,2 @@
 # TodoApp-with-React
-Second homework with React
+*Just a simple TodoApp to initialize React*
