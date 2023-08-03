@@ -1,4 +1,5 @@
-//src/TodoApp/TodoApp.js
+//Just a main component containing task status and functions for adding, updating and deleting tasks
+
 import React, { useState } from "react";
 import TodoForm from "./TodoForm";
 import TodoList from "./TodoList";
